@@ -94,22 +94,22 @@ function App() {
             The table below show nutritional values per serving without the
             additional fillings.
             {/* table for nutritional values */}
-            <table>
-              <tr>
-                <td>Calories</td>
-                <td>277kcal</td>
+            <table className="table">
+              <tr className="borderBottom">
+                <td className="left">Calories</td>
+                <td className="right">277kcal</td>
               </tr>
-              <tr>
+              <tr className="borderBottom">
                 <td>Carbs</td>
-                <td>0g</td>
+                <td className="right">0g</td>
               </tr>
-              <tr>
+              <tr className="borderBottom">
                 <td>Protein</td>
-                <td>20g</td>
+                <td className="right">20g</td>
               </tr>
-              <tr>
+              <tr className="borderBottom">
                 <td>Fat</td>
-                <td>22g</td>
+                <td className="right">22g</td>
               </tr>
             </table>
           </div>

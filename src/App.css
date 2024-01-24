@@ -21,6 +21,16 @@
   border-radius: 18px;
   height: 300px;
 }
+.intro,
+.ingredients,
+.nutrition,
+.instructions,
+.preparation {
+  margin: 2rem 0;
+}
+.instructions ol {
+  padding: 1rem 2rem;
+}
 .intro {
   margin: 2rem 0;
 }
@@ -28,6 +38,7 @@
   font-size: 3rem;
   font-weight: 300;
   margin: 1rem 0;
+  line-height: 50px;
 }
 
 .preparation {
@@ -44,6 +55,9 @@
   padding: 0;
   margin: 0;
 }
+.preparation strong {
+  font-weight: 800;
+}
 .ingredients ul {
   margin: 0.5rem 2rem;
 }
@@ -57,8 +71,19 @@
 .nutrition h1 {
   color: hsl(14, 45%, 36%);
 }
-
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+.table {
+  width: 100%;
+}
+.table td {
+  border-bottom: 1px solid black;
+}
+.table .right {
+  text-align: right;
+}
+.table .left {
+  text-align: left;
+}
+@media screen and (min-width: 375px) and (max-width: 674px) {
   .main {
     width: 100vw;
     padding: 0;
@@ -73,5 +98,13 @@
     margin: 0;
     border-radius: 0;
     width: 100%;
+  }
+  .intro,
+  .ingredients,
+  .nutrition,
+  .instructions,
+  .instructions ol,
+  .preparation {
+    padding: 2rem 1rem;
   }
 }
