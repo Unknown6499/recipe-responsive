@@ -7,7 +7,7 @@ function App() {
       <div className="main">
         {/* content container */}
         <div className="container">
-          <img src={omlette} className="omlette" />
+          <img src={omlette} className="omlette" alt="omelette" />
           {/* Recipe intro */}
           <div className="intro">
             <h1>Simple Omelette Recipe</h1>
@@ -19,7 +19,7 @@ function App() {
           </div>
           {/* preprations to be made */}
           <div className="preparation">
-            <h4>Preparation Time</h4>
+            <p>Preparation Time</p>
             <ul>
               <li>
                 <p>
